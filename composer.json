@@ -1,0 +1,20 @@
+{
+    "name": "bomtools/json-request",
+    "description": "Functions for handling json content in Symfony/HttpFoundation/Request objects",
+    "keywords": [
+    	"request",
+    	"json",
+    	"symfony",
+    	"http-foundation"
+    ],
+    "type": "library",
+    "require": {
+    	"php": ">=7.0.0",
+        "symfony/http-foundation": "^3.3"
+    },
+    "autoload": {
+    	"files": ["src/json-request.php"]
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
